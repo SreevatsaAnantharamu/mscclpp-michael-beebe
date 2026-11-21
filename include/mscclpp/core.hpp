@@ -409,7 +409,7 @@ struct EndpointConfig {
     static constexpr int DefaultMaxCqSize = 1024;
     static constexpr int DefaultMaxCqPollNum = 256;
     static constexpr int DefaultMaxSendWr = 8192;
-    static constexpr int DefaultMaxRecvWr = 16;
+    static constexpr int DefaultMaxRecvWr = 1025;
     static constexpr int DefaultMaxWrPerSend = 64;
 
     /// Device index. Currently ignored; use transport type (IB0-IB7 or MRC0-MRC7) to select device.
